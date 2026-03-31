@@ -3,90 +3,79 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Gottfried Oteiza | Senior Oracle PL/SQL Developer</title>
+  <title>Gottfried Oteiza | Senior PL/SQL Developer</title>
 
-  <!-- Google Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-
-  <!-- Styles -->
   <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet" />
+
 </head>
 
 <body>
 
-  <!-- NAVBAR -->
+  <!-- Canvas para partículas -->
+  <canvas id="particles"></canvas>
+
+  <!-- NAV -->
   <header class="navbar">
-    <div class="logo">GOTTFRIED OTEIZA</div>
+    <div class="logo">GOTTFRIED</div>
     <nav>
       <a href="#about">Sobre mí</a>
       <a href="#skills">Skills</a>
-      <a href="#labs">Labs</a>
+      <a href="#labs">Laboratorios</a>
       <a href="#contact">Contacto</a>
     </nav>
   </header>
 
   <!-- HERO -->
   <section class="hero">
-    <div class="hero-content">
+    <div class="hero-content fade-in">
       <h1>Senior Oracle PL/SQL Developer</h1>
-      <p>
-        Desarrollo backend, PL/SQL avanzado, optimización SQL y diseño de
-        soluciones empresariales en Oracle Database.
-      </p>
-      <a href="#labs" class="btn">Ver laboratorios</a>
+      <p>Experto en diseño de bases de datos, PL/SQL avanzado, optimización y soluciones empresariales robustas.</p>
+
+      <a href="#labs" class="btn-primary">Ver Laboratorios</a>
     </div>
   </section>
 
   <!-- ABOUT -->
-  <section id="about" class="section">
+  <section id="about" class="section fade-in">
     <h2>Sobre mí</h2>
     <p>
-      Soy <strong>Gottfried Wilhelm Oteiza Trujillo</strong>, ingeniero de software
-      especializado en <strong>Oracle PL/SQL</strong>, arquitectura de datos y
-      optimización de rendimiento.
-    </p>
-    <p>
-      He trabajado en entornos corporativos donde la calidad del código,
-      la eficiencia y la mantenibilidad son críticos.
+      Soy <strong>Gottfried Wilhelm Oteiza Trujillo</strong>, ingeniero de software especializado en 
+      <strong>Oracle PL/SQL</strong>, rendimiento SQL, automatización y arquitectura de datos.
     </p>
   </section>
 
-
- <!-- SKILLS -->
-  <section id="skills" class="section gray">
-    <h2>Skills técnicos</h2>
-
+  <!-- SKILLS -->
+  <section id="skills" class="section fade-in alt">
+    <h2>Skills Técnicos</h2>
     <div class="skills-grid">
-      <div class="skill">PL/SQL Avanzado</div>
-      <div class="skill">SQL Performance Tuning</div>
-      <div class="skill">Oracle 11g / 12c / 19c</div>
-      <div class="skill">Packages & Triggers</div>
-      <div class="skill">Modelado de Datos</div>
-      <div class="skill">BULK COLLECT / FORALL</div>
-      <div class="skill">Docker (Oracle XE)</div>
-      <div class="skill">GitHub Actions</div>
+      <div class="skill-card">PL/SQL Avanzado</div>
+      <div class="skill-card">SQL Tuning</div>
+      <div class="skill-card">Oracle 19c</div>
+      <div class="skill-card">Triggers & Packages</div>
+      <div class="skill-card">BULK COLLECT / FORALL</div>
+      <div class="skill-card">CI/CD GitHub Actions</div>
+      <div class="skill-card">Docker Oracle XE</div>
+      <div class="skill-card">Modelado de Datos</div>
     </div>
   </section>
 
   <!-- LABS -->
-  <section id="labs" class="section">
-    <h2>Laboratorios interactivos (Oracle Live SQL)</h2>
-    <p>
-      Laboratorios ejecutables directamente en Oracle Live SQL para demostrar
-      habilidades reales en PL/SQL.
-    </p>
+  <section id="labs" class="section fade-in">
+    <h2>Laboratorios Interactivos</h2>
+    <p>Ejecuta mis laboratorios directamente en Oracle Live SQL.</p>
 
     <div class="labs-grid">
       <a class="lab-card" href="#" target="_blank">
         <h3>Lab 01</h3>
-        <p>Funciones, validación y manejo de errores</p>
+        <p>Funciones, validaciones y excepciones</p>
       </a>
 
       <a class="lab-card" href="#" target="_blank">
         <h3>Lab 02</h3>
-        <p>Procesamiento masivo con BULK COLLECT y FORALL</p>
+        <p>BULK COLLECT & FORALL</p>
       </a>
 
       <a class="lab-card" href="#" target="_blank">
@@ -96,33 +85,31 @@
 
       <a class="lab-card" href="#" target="_blank">
         <h3>Lab 04</h3>
-        <p>Paquetes PL/SQL (spec + body)</p>
+        <p>Paquetes PL/SQL</p>
       </a>
 
       <a class="lab-card" href="#" target="_blank">
         <h3>Lab 05</h3>
-        <p>Explain Plan e índices</p>
+        <p>Explain Plan + índices</p>
       </a>
     </div>
   </section>
 
-
   <!-- CONTACT -->
-  <section id="contact" class="section gray">
+  <section id="contact" class="section fade-in alt">
     <h2>Contacto</h2>
-    <p>Puedes encontrarme o contactarme aquí:</p>
-
     <div class="contact-links">
-      <a href="https://github.com/gwoteiza-knowmadmood" target="_blank">GitHub</a>
-      <!--<a href="https://linkedin.com/in/TU_LINKEDIN" target="_blank">LinkedIn</a>-->
-      <!--<a href="mailto:TU_EMAIL">Email</a>-->
+      <a href="https://github.com/TU_USUARIO" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/TU_LINKEDIN" target="_blank">LinkedIn</a>
+      <a href="mailto:TUCORREO">Email</a>
     </div>
   </section>
 
   <!-- FOOTER -->
   <footer>
-    © 2026 · Gottfried Oteiza · Oracle PL/SQL Portfolio
+    © 2026 – Gottfried Oteiza – Portfolio Oracle PL/SQL
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
